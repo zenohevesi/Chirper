@@ -1,18 +1,28 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
-  background: blue;
-  padding: 15px;
-  color: white;
-  text-align: center;
-  font-family: sans-serif;
+header {
+    background: dodgerblue;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
 }
 
-header > h2 {
-  font-size: 16px;
-  padding: 10px;
+header>h2 {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.login-form {
+    font-size: 16px;
+    font-family: sans-serif;
+    align-self: center;
+    background: dodgerblue;
+    margin: 2rem;
+    padding: 2rem;
+    border: whitesmoke 4px solid round;
 }
