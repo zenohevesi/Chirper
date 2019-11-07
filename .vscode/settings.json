@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4c81b4f8-74f6-47b4-98ee-c2a0c11f0c74/resourceGroups/chirper/providers/Microsoft.Web/sites/chirpersoton",
+    "appService.deploySubpath": ""
+}
