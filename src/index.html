@@ -1,5 +1,66 @@
 <!DOCTYPE html>
 <html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background: dodgerblue;
+        padding: 15px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    header>h2 {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .login-form {
+        font-size: 16px;
+        font-family: sans-serif;
+        background: dodgerblue;
+        margin: 2rem;
+        padding: 2rem;
+        border: whitesmoke 4px solid round;
+        text-align: center;
+        align-items: center;
+    }
+    
+    body {
+        align-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    
+    label {
+        display: block;
+        padding: 4px;
+    }
+    
+    input {
+        display: block;
+        margin: auto;
+        width: 375px;
+        height: 30px;
+        padding: 5px;
+    }
+    
+    button {
+        background: whitesmoke;
+        font-family: sans-serif;
+        align-content: center;
+        border: dodgerblue 2px;
+        color: dodgerblue;
+        width: 170px;
+        height: 50px;
+        margin: 15px 15px;
+    }
+</style>
 
 <head>
     <meta charset="utf-8">
@@ -11,13 +72,16 @@
         <h1>Welcome to Chirper</h1>
     </header>
     <form class="login-form">
-        <input type "username" id="username">
         <label for "username">
-                Username
-            </label>
-        <input type "password" id="password">
-        <label for "password"</label> Password
+            Username
         </label>
+        <input type="username" id="username">
+        <label for "password"> Password
+        </label>
+        <input type="password" id="password">
+
+        <button type="login">Log in</button>
+        <button type="register">Regiter</button>
     </form>
 </body>
 
